@@ -24,7 +24,7 @@
   width: 15vw;
   margin-right: 1vw;
   border-radius: 30%;
-  background: url(/src/avatar.png) no-repeat 0 50% / contain;
+  background: url(../src/avatar.png) no-repeat 0 50% / contain;
 }
 
 .chetting-friends-message {
