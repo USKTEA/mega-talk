@@ -1,0 +1,51 @@
+.chetting {
+  padding: 3vw 3vw;
+}
+
+.chetting-h2 {
+  padding-left: 2vw;
+}
+
+.chetting h3 {
+  font-size: 4vw;
+  color: #444;
+}
+
+.chetting li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1vw;
+  margin-bottom: 4vw;
+}
+
+.chetting-friends-profile {
+  height: 15vw;
+  width: 15vw;
+  margin-right: 1vw;
+  border-radius: 30%;
+  background: url(/src/avatar.png) no-repeat 0 50% / contain;
+}
+
+.chetting-friends-message {
+  display: flex;
+}
+
+.chetting p {
+  padding-top: 1.5vw;
+  font-size: 3vw;
+  color: #444;
+}
+
+.chetting time {
+  color: #777;
+}
+
+.chatting-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}

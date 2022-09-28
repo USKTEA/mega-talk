@@ -1,0 +1,130 @@
+.chatting-room-body {
+  background-color: #aec0ce;
+}
+
+.chatting-room {
+  padding: 3vw 2.5vw;
+}
+
+.chatting-room li {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10vw;
+}
+
+.message-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends-profile ~ time {
+  align-self: flex-end;
+}
+
+.chat-id-message {
+  position: relative;
+  margin-right: 1.5vw;
+}
+
+.chat-id-message h3 {
+  color: #777;
+  margin: 1vw 0;
+}
+
+.message-container p {
+  font-size: 4vw;
+  font-weight: 400;
+  padding: 2vw;
+  border-radius: 3vw;
+  background-color: #fff;
+}
+
+.triangle {
+  position: absolute;
+  left: -0.3vw;
+  height: 2vw;
+  width: 3vw;
+  border-top: 3vw solid #fff;
+  border-bottom: 3vw solid transparent;
+  border-left: 3vw solid transparent;
+  border-right: 3vw solid transparent;
+}
+
+.chatting-reply {
+  position: absolute;
+  top: calc(100vh - 13vw);
+  display: flex;
+  align-items: center;
+  height: 13vw;
+  width: 100%;
+  padding: 2vw;
+  background-color: #fff;
+}
+
+.chatting-reply form {
+  width: 100%;
+  display: flex;
+}
+
+.chatting-typing {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5vw;
+  padding: 1.5vw;
+  width: 100%;
+  border: 1px solid #c5c4c4;
+  border-radius: 2.5vw;
+  background-color: #f9f8f8;
+}
+
+.chatting-typing input {
+  display: inline-block;
+  width: 100%;
+  background-color: #f9f8f8;
+}
+
+.chatting-buttons {
+  display: flex;
+}
+
+.back {
+  text-indent: -1000px;
+  overflow: hidden;
+  color: #fff;
+
+  width: 5vw;
+  background: url(../src/chevron-left-black.png) no-repeat 0 50%;
+  background-size: contain;
+}
+
+.list {
+  width: 5vw;
+  background: url(../src/hamburger.png) no-repeat 0 50%;
+  background-size: contain;
+}
+
+.chatting-plus {
+  width: 4vw;
+  height: 4vw;
+  background: url(../src/plus.png) no-repeat 0 50%;
+  background-size: contain;
+
+  margin-right: 3vw;
+}
+
+.emoji {
+  width: 5vw;
+  height: 5vw;
+  background: url(../src/emoji.png) no-repeat 0 50%;
+  background-size: contain;
+
+  margin-right: 1vw;
+}
+
+.enter {
+  width: 5vw;
+  height: 5vw;
+  background: url(../src/enter.png) no-repeat 0 50%;
+  background-size: contain;
+}

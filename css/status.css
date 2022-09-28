@@ -1,0 +1,46 @@
+.status-bar time {
+  font-size: 3.6vw;
+  font-weight: 700;
+  color: #000;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4vw 10vw;
+  height: 12.3vw;
+}
+
+.status-bar li {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: contain;
+  text-indent: -1000px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.statuses {
+  display: flex;
+  gap: 2vw;
+  height: 100%;
+}
+
+.cellular {
+  width: 5vw;
+  background: url(../src/cellular.png) no-repeat 0 50%;
+  background-size: contain;
+}
+
+.wifi {
+  width: 5vw;
+  background: url(../src/wifi.png) no-repeat 0 50%;
+  background-size: contain;
+}
+
+.battery {
+  width: 5vw;
+  background: url(../src/battery.png) no-repeat 0 50%;
+  background-size: contain;
+}

@@ -1,0 +1,54 @@
+.view-controller {
+  height: 13vw;
+  width: 100%;
+
+  border-top: 1px solid #777;
+  position: absolute;
+  top: calc(100vh - 13vw);
+}
+
+.view-controller nav {
+  height: 100%;
+}
+
+.view-controller nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  background-color: #eee;
+}
+
+.view-controller nav ul li {
+  text-indent: -1000px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.nav-friend {
+  background: url(../src/user-fill.png) no-repeat 0 50% / contain;
+}
+
+.nav-friend-blank {
+  background: url(../src/user-blank.png) no-repeat 0 50% / contain;
+}
+
+.nav-chetting {
+  background: url(../src/chat-fill.png) no-repeat 0 50% / contain;
+}
+
+.nav-chetting-blank {
+  background: url(../src/chat-blank.png) no-repeat 0 50% / contain;
+}
+
+.nav-view {
+  background: url(../src/view-blank.png) no-repeat 0 50% / contain;
+}
+
+.nav-shopping {
+  background: url(../src/shopping-blank.png) no-repeat 0 50% / contain;
+}
+
+.nav-more {
+  background: url(../src/more-blank.png) no-repeat 0 50% / contain;
+}

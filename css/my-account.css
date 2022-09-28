@@ -1,0 +1,22 @@
+.my-account-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.2vw 2.2vw;
+  padding: 2vw 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.my-profile {
+  width: 18vw;
+  height: 18vw;
+  margin-right: 3vw;
+  border-radius: 30%;
+  background: url(../src/avatar.png) no-repeat 0 50%;
+  background-size: contain;
+}
+
+.my-profile + p {
+  font-size: 5vw;
+  font-weight: 1000;
+}

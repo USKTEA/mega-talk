@@ -1,0 +1,44 @@
+.friends-section {
+  width: 95%;
+  height: 100%;
+  margin: 2vw 2.2vw;
+  padding: 1vw 0;
+}
+
+.chevron-down {
+  font-size: 3.2vw;
+  width: 3.5vw;
+  background: url(../src/chevron-down.png) no-repeat 0 50% / contain;
+  text-indent: -1000px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.friends-section h3 {
+  font-size: 2vw;
+  font-weight: 400;
+  color: #444;
+}
+
+.list-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5vw;
+}
+
+.friends-list li p {
+  font-size: 4vw;
+}
+
+.friends-profile {
+  height: 13vw;
+  width: 13vw;
+  margin-right: 2vw;
+  border-radius: 30%;
+  background: url(../src/avatar.png) no-repeat 0 50% / contain;
+}
